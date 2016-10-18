@@ -1,0 +1,28 @@
+.contact-list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.contact-list__item{
+	margin-bottom: 20px;
+	background: aliceblue;
+}
+
+.contact-list__image {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.contact-list__image img {
+	max-width: 100%;
+}
+
+.contact-list__info {
+  display: inline-block;
+  vertical-align: middle;
+}
